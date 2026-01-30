@@ -1,7 +1,7 @@
 # hand_mouse_controller
 Hand Mouse Controller
 This application allows you to control the mouse cursor using your hand gestures, powered by Google MediaPipe. I have tested it by playing digital board games and found the performance to be smooth enough for regular gameplay, so I am releasing it to the public.
-
+The built file was too large to upload, so I'll just leave the code. Mediapipe won't work unless you're using Python 3.10, so please create a virtual environment.
 ⚠️ Installation & Known Issues (Please Read)
 1. Directory Path Limitation
 Due to a characteristic (or bug) of MediaPipe, this application will not work if placed in a directory path containing Japanese characters (non-ASCII characters).
@@ -33,7 +33,7 @@ Depth Sensitivity: The application recognizes depth. The further your hand is fr
 
 ❌ How to Exit
 To close the application, ensure the camera window is in focus and press the [Q] key.
-
+ビルドしたファイルはファイルが多すぎてアップロードできなかったのでコードだけおいていきます。python3.10あたりじゃないとmediapipeはうごかないので仮想環境をうまく作ってください。
 手でマウス操作ができます。googleのmediapipeを使用していて、それらの特性（というかバグ）で日本語下のディレクトリでは動かないのでユーザー名が日本語の人はCドライブ直下などに配置して使ってください。
 それとmedeapipeとpythonのバグでビルドする際に一つの.exeファイルにどうしてもまとめられなかったのでhand_mouse_v4ごとダウンロードして中のhand_mouse_v4.exeを起動してください。
 ユーザーの顔が認識されなければマウス操作は非アクティブになります。これを使ってボードゲームをしてみましたが、普通にプレイできるレベルまで持ってこれたので公開したいと思います。
